@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="${APP_PATH}${FOLDERNAME}">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="${KEYWORDS}">
+    <meta name="description" content="${DESCRIPTION}">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="${APP_PATH}${FOLDERNAME}" />
+    <meta property="og:title" content="${OGTITLE}" />
+    <meta property="og:description" content="${OGDESCRIPTION}" />
+    <meta property="og:image" content="${APP_PATH}${FOLDERNAME}/ogp.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="${TWITTERDES}" />
+    <meta name="twitter:site" content="${TWITTERSITE}" />
+    <meta property="og:site_name" content="${OGSITENAME}" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="icon" href="${APP_PATH}favicon.ico">
+    <meta name="robots" content="noindex">
+    <title>${TITLE}</title>
+  </head>
+  <body>
+    <script>
+      location.href="${APP_PATH}${ANCHOR_ID}";
+    </script>
+    <div>リダイレクトします</div>
+  </body>
+</html>
